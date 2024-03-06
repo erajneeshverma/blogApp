@@ -67,7 +67,7 @@ const CreatePost = () => {
 
         }
         catch(err){
-          console.log(err)
+          console.log("Error while r=creating post",err);
         }
     }
 
